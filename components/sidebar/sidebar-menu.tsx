@@ -41,7 +41,7 @@ export const SidebarMenu = () => {
       </Card>
       <ChevronRight
         onClick={() => setOpen((prev) => !prev)}
-        className={`absolute top-[50%] left-[100%] transition-all duration-300 ease-in-out ${open ? "-rotate-180" : "rotate-0"}`}
+        className={`absolute cursor-pointer top-[50%] left-[100%] transition-all duration-300 ease-in-out ${open ? "-rotate-180" : "rotate-0"}`}
       />
     </div>
   );
